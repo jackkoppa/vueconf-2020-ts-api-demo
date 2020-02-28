@@ -35,15 +35,16 @@ public class Application {
 
     @Bean
   ApplicationRunner init(CandidateRepository repository) {
-
+    // Most recently updated: 2/27/20, https://www.realclearpolitics.com/epolls/2020/president/us/2020_democratic_presidential_nomination-6730.html
     String[][] data = {
-        {"Joe", "Biden", "DEMOCRAT", "2020", "26.8"},
-        {"Elizabeth", "Warren", "DEMOCRAT", "2020", "20.8"},
-        {"Bernie", "Sanders", "DEMOCRAT", "2020", "17.0"},
-        {"Pete", "Buttigieg", "DEMOCRAT", "2020", "7.5"},
-        {"Kamala", "Harris", "DEMOCRAT", "2020", "5.5"},
+        {"Bernie", "Sanders", "DEMOCRAT", "2020", "29.5"},
+        {"Joe", "Biden", "DEMOCRAT", "2020", "18.0"},
+        {"Michael", "Bloomberg", "DEMOCRAT", "2020", "14.7"},
+        {"Elizabeth", "Warren", "DEMOCRAT", "2020", "12.0"},
+        {"Pete", "Buttigieg", "DEMOCRAT", "2020", "10.3"},
+        {"Amy", "Klobuchar", "DEMOCRAT", "2020", "5.3"},
+        {"Tulsi", "Gabbard", "DEMOCRAT", "2020", "2.2"},
         {"Donald", "Trump", "REPUBLICAN", "2020", "85.4"},
-        {"Joe", "Walsh", "REPUBLICAN", "2020", "2.2"},
         {"Bill", "Weld", "REPUBLICAN", "2020", "2.8"},
     };
 
